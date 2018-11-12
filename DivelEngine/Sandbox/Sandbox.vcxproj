@@ -114,6 +114,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DivelEngine\DivelEngine.vcxproj">
+      <Project>{6d7d81a6-6671-408a-81d6-e0fb7e9d6b4c}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Sandbox.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
